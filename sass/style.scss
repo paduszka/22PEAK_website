@@ -14,38 +14,39 @@ h1 {
 
 header {
   height: 100px;
+  background-color: rgb(35, 35, 37);
+}
+
+#logo {
+  height: 100%;
+  padding-top: 22.5px;
 }
 
 .navbar-grid {
   display: flex;
   justify-content: flex-end;
-  padding: 16px;
+  height: 100px;
 }
 
 .navbar {
-  margin-top: 30px;
   justify-content: space-between;
   color: white;
-
+  display: flex;
+  align-items: center;
+  height: 100px;
   a {
     margin-left: 10px;
-    color: #636F84;
-  }
-
-  .primaryLink {
     color: white;
-    border: none;
-    width: 300px;
-    height: 200px;
-    margin-bottom: 50px;
-    border-radius: 30px;
-    padding: 10px 20px;
-    background-image: linear-gradient(-133deg, #99a3e8, #8fcae4);
   }
 }
 
-.cover-image {
-  background-position: center;
+.cover-container {
+  margin: 0 auto;
+  height: 500px;
+  background-color: rgb(70, 100, 93);
+    .cover-image {
+      background-position: center;
+    }
 }
 
 .cover-text {
@@ -54,21 +55,46 @@ header {
   justify-content: flex-start;
   min-height: 400px;
   font-family: 'Source Serif Pro', serif;
+  color: rgb(182, 192, 200);
 }
 
+#contact {
+  color: white;
+    text-align: center;
+    img {
+      height: 40px;
+    }
+}
 
-.footer-wrapper {
-  width: 100%;
+.contact-container {
+  background-color: rgb(187, 207, 153);
+  height: 300px;
+}
+
+.contact-info {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 300px;
+  flex-direction: column;
+  a {
+    color: white;
+  }
 }
 
-.footer-bottom {
-  background-color: rgb(51, 61, 78);
-  text-align: center;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+form {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  input {
+    margin-top: 10px;
+  }
 }
 
 .footer-icons {
@@ -76,14 +102,16 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(30, 72, 48);
 }
 
 .footer-label {
   font-size: 14px;
-  background-color: #1d262f;
+  background-color: rgb(7, 41, 22);
   padding-top: 20px;
   padding-bottom: 20px;
   color: rgb(233, 236, 246);
+  text-align: center;
 }
 
 .footer-icon-img {
