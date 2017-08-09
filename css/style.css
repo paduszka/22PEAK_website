@@ -125,14 +125,17 @@
   text-decoration: none;
   padding: 0;
   margin: 0;
-  font-family: "Avenir"; }
+  font-family: "Lato"; }
 
 h1 {
   color: #636F84; }
 
 header {
+  height: 585px; }
+
+.headerNavbar {
   height: 100px;
-  background-color: #232325; }
+  background-color: rgba(35, 35, 37, 0.8); }
 
 #logo {
   height: 100%;
@@ -153,20 +156,34 @@ header {
     margin-left: 10px;
     color: white; }
 
-.cover-container {
-  margin: 0 auto;
-  height: 500px;
-  background-color: #46645d; }
-  .cover-container .cover-image {
-    background-position: center; }
+#aim {
+  height: 475px;
+  color: black;
+  text-align: center;
+  background-color: #f6f5f0;
+  padding: 0 50px; }
+  #aim h1 {
+    margin: 70px 0;
+    font-style: bold;
+    font-size: 40px;
+    font-family: "Lato"; }
+  #aim p {
+    font-size: 14px; }
 
-.cover-text {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  min-height: 400px;
-  font-family: 'Source Serif Pro', serif;
-  color: #b6c0c8; }
+#offer {
+  height: 1000px;
+  color: #b3b3b3;
+  text-align: center;
+  background-color: #242833;
+  padding: 0 50px; }
+  #offer h1 {
+    margin: 50px 0;
+    font-style: bold;
+    font-size: 40px;
+    font-family: "Lato"; }
+  #offer p {
+    margin-bottom: 50px;
+    font-size: 18px; }
 
 #contact {
   color: white;
