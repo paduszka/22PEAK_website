@@ -131,8 +131,12 @@ header {
 }
 
 .contact-container {
-  background-color: rgb(187, 207, 153);
-  height: 300px;
+  height: 500px;
+}
+
+.contact-container-icons {
+  display: flex;
+  justify-content: center;
 }
 
 .contact-info {
@@ -150,35 +154,17 @@ header {
   align-items: center
 }
 
-form {
-  padding-top: 120px;
+.socialMedia {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  input {
-    margin-top: 10px;
-  }
-}
-
-.footer-icons {
-  height: 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(30, 72, 48);
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .footer-label {
   font-size: 14px;
-  background-color: rgb(7, 41, 22);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background-color: rgb(36, 36, 38);
+  padding-top: 10px;
+  padding-bottom: 5px;
   color: rgb(233, 236, 246);
   text-align: center;
-}
-
-.footer-icon-img {
-  width: 30px;
-  margin: 0 20px;
 }

@@ -63,7 +63,7 @@ header {
 }
 
 .vr {
-  background-image: url('../images/vr.png');
+  background-image: url('../images/vr2.png');
 }
 
 .skills {
@@ -77,4 +77,42 @@ header {
   background-size: cover;
   margin-top: 30px;
   margin-bottom: 15px;
+}
+
+.contact-container {
+  background-image: url('../images/run.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logoPeak {
+  background-image: url('../images/2.png');
+  height: 80px;
+  width: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fb {
+  background-image: url('../images/fb.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.instagram {
+  background-image: url('../images/instagram.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.youtube {
+  background-image: url('../images/youtube.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
 }

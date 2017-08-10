@@ -225,8 +225,11 @@ header {
     height: 40px; }
 
 .contact-container {
-  background-color: #bbcf99;
-  height: 300px; }
+  height: 500px; }
+
+.contact-container-icons {
+  display: flex;
+  justify-content: center; }
 
 .contact-info {
   display: flex;
@@ -240,30 +243,15 @@ header {
   justify-content: center;
   align-items: center; }
 
-form {
-  padding-top: 120px;
+.socialMedia {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  form input {
-    margin-top: 10px; }
-
-.footer-icons {
-  height: 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1e4830; }
+  flex-direction: row;
+  justify-content: space-around; }
 
 .footer-label {
   font-size: 14px;
-  background-color: #072916;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background-color: #242426;
+  padding-top: 10px;
+  padding-bottom: 5px;
   color: #e9ecf6;
   text-align: center; }
-
-.footer-icon-img {
-  width: 30px;
-  margin: 0 20px; }
