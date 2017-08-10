@@ -61,11 +61,10 @@ header {
 }
 
 #offer {
-  height: 1000px;
+  height: 800px;
   color: rgb(179,179,179);
   text-align: center;
-  background-color: rgb(36, 40, 51);
-  padding: 0 50px;
+
   h1 {
     margin: 50px 0;
     font-style: bold;
@@ -73,9 +72,53 @@ header {
     font-family: "Lato";
   }
   p {
-    margin-bottom: 50px;
-    font-size: 18px;
+    margin-bottom: 0px;
+    font-size: 14px;
   }
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+#about {
+  height: 500px;
+  color: black;
+  background-color: rgb(246, 245, 240);
+  h1 {
+    margin: 50px 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  ul li {
+    margin: 20px 0 20px 20px;
+  }
+}
+
+#career {
+  height: 600px;
+  color: rgb(179, 179, 179);
+  h4 {
+    margin: 40px 0;
+  }
+  ul li {
+    margin: 20px 0 20px 20px;
+  }
+}
+
+#cooperation {
+  height: 300px;
+  margin: 20px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.cooperationContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
 }
 
 

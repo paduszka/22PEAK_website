@@ -171,19 +171,52 @@ header {
     font-size: 14px; }
 
 #offer {
-  height: 1000px;
+  height: 800px;
   color: #b3b3b3;
-  text-align: center;
-  background-color: #242833;
-  padding: 0 50px; }
+  text-align: center; }
   #offer h1 {
     margin: 50px 0;
     font-style: bold;
     font-size: 40px;
     font-family: "Lato"; }
   #offer p {
-    margin-bottom: 50px;
-    font-size: 18px; }
+    margin-bottom: 0px;
+    font-size: 14px; }
+
+.iconContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px; }
+
+#about {
+  height: 500px;
+  color: black;
+  background-color: #f6f5f0; }
+  #about h1 {
+    margin: 50px 0;
+    font-size: 40px;
+    text-align: center; }
+  #about ul li {
+    margin: 20px 0 20px 20px; }
+
+#career {
+  height: 600px;
+  color: #b3b3b3; }
+  #career h4 {
+    margin: 40px 0; }
+  #career ul li {
+    margin: 20px 0 20px 20px; }
+
+#cooperation {
+  height: 300px;
+  margin: 20px 0;
+  font-size: 40px;
+  text-align: center; }
+
+.cooperationContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px; }
 
 #contact {
   color: white;
