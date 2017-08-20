@@ -1,9 +1,10 @@
-header {
-  height: 585px;
+.header-container {
+  min-height: 600px;
   background-image: url('../images/header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 #offer {
   background-image: url('../images/treadmill.jpg');
@@ -12,8 +13,8 @@ header {
 }
 
 .icon {
-  height: 80px;
-  width: 80px;
+  height: 7rem;
+  width: 7rem;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 50px;
@@ -71,11 +72,11 @@ header {
 }
 
 .logos {
-  height: 140px;
-  width: 140px;
+  height: 13rem;
+  width: 13rem;
   background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 30px;
+  background-size: contain;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 
@@ -93,26 +94,26 @@ header {
   background-size: cover;
 }
 
-.fb {
+.socialMedia .fb {
   background-image: url('../images/fb.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100px;
-  width: 100px;
+  height: 7rem;
+  width: 7rem;
 }
 
-.instagram {
+.socialMedia .instagram {
   background-image: url('../images/instagram.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100px;
-  width: 100px;
+  height: 7rem;
+  width: 7rem;
 }
 
-.youtube {
+.socialMedia .youtube {
   background-image: url('../images/youtube.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100px;
-  width: 100px;
+  height: 7rem;
+  width: 7rem;
 }

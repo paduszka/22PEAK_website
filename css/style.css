@@ -130,38 +130,54 @@
 h1 {
   color: #636F84; }
 
-header {
-  height: 585px; }
+header .onerow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -50px; }
 
 .headerNavbar {
-  height: 100px;
-  background-color: rgba(35, 35, 37, 0.8); }
-
-#logo {
-  height: 100%;
-  padding-top: 22.5px; }
-
-.navbar-grid {
-  display: flex;
-  justify-content: flex-end;
-  height: 100px; }
-
-.navbar {
-  justify-content: space-between;
-  color: white;
-  display: flex;
-  align-items: center;
-  height: 100px; }
-  .navbar a {
-    margin-left: 10px;
-    color: white; }
+  height: 105px;
+  background-color: rgba(35, 35, 37, 0.8);
+  margin-top: 40px; }
+  .headerNavbar #logo {
+    width: 120px;
+    margin-top: 10px; }
+  .headerNavbar .navbar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 25px; }
+    .headerNavbar .navbar a {
+      margin-left: 2vw;
+      color: white;
+      font-size: 1.2vw; }
+  .headerNavbar .socialMediaSmall {
+    width: 100px;
+    display: flex;
+    justify-content: space-around; }
+    @media (max-width: 758px) {
+      .headerNavbar .socialMediaSmall {
+        display: flex;
+        justify-content: space-around;
+        width: 40px;
+        margin-left: 40px; } }
+    .headerNavbar .socialMediaSmall #fbSmall {
+      width: 2vw;
+      height: 2vw; }
+    .headerNavbar .socialMediaSmall #instagramSmall {
+      width: 2vw; }
+    .headerNavbar .socialMediaSmall #youtubeSmall {
+      width: 2vw; }
 
 #aim {
-  height: 475px;
+  min-height: 475px;
   color: black;
   text-align: center;
   background-color: #f6f5f0;
-  padding: 0 50px; }
+  padding: 0 50px;
+  padding-bottom: 70px; }
   #aim h1 {
     margin: 70px 0;
     font-style: bold;
@@ -171,7 +187,7 @@ header {
     font-size: 14px; }
 
 #offer {
-  height: 800px;
+  min-height: 800px;
   color: #b3b3b3;
   text-align: center; }
   #offer h1 {
@@ -189,9 +205,10 @@ header {
   margin-bottom: 100px; }
 
 #about {
-  height: 500px;
+  min-height: 500px;
   color: black;
-  background-color: #f6f5f0; }
+  background-color: #f6f5f0;
+  padding-bottom: 70px; }
   #about h1 {
     margin: 50px 0;
     font-size: 40px;
@@ -200,8 +217,9 @@ header {
     margin: 20px 0 20px 20px; }
 
 #career {
-  height: 600px;
-  color: #b3b3b3; }
+  min-height: 700px;
+  color: #b3b3b3;
+  padding-bottom: 70px; }
   #career h4 {
     margin: 40px 0; }
   #career ul li {
@@ -221,8 +239,17 @@ header {
 #contact {
   color: white;
   text-align: center; }
-  #contact img {
-    height: 40px; }
+  #contact h1 {
+    margin-bottom: 40px; }
+  #contact .logoPeak {
+    margin-bottom: 40px; }
+  #contact .socialMedia {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  #contact a {
+    color: white; }
 
 .contact-container {
   height: 500px; }
@@ -237,17 +264,6 @@ header {
   .contact-info a {
     color: white; }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.socialMedia {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
 .footer-label {
   font-size: 14px;
   background-color: #242426;
@@ -255,3 +271,6 @@ header {
   padding-bottom: 5px;
   color: #e9ecf6;
   text-align: center; }
+  .footer-label a {
+    color: white;
+    text-decoration-line: underline; }
