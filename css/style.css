@@ -125,7 +125,7 @@
   text-decoration: none;
   padding: 0;
   margin: 0;
-  font-family: "Lato"; }
+  font-family: 'Montserrat', Arial, sans-serif; }
 
 h1 {
   color: #636F84; }
@@ -137,9 +137,9 @@ header .onerow {
   margin-top: -50px; }
 
 .headerNavbar {
-  height: 105px;
+  height: 90px;
   background-color: rgba(35, 35, 37, 0.8);
-  margin-top: 40px; }
+  margin-top: 35px; }
   .headerNavbar #logo {
     width: 120px;
     margin-top: 10px; }
@@ -153,51 +153,50 @@ header .onerow {
       margin-left: 2vw;
       color: white;
       font-size: 1.2vw; }
-  .headerNavbar .socialMediaSmall {
-    width: 100px;
-    display: flex;
-    justify-content: space-around; }
-    @media (max-width: 758px) {
-      .headerNavbar .socialMediaSmall {
-        display: flex;
-        justify-content: space-around;
-        width: 40px;
-        margin-left: 40px; } }
-    .headerNavbar .socialMediaSmall #fbSmall {
-      width: 2vw;
-      height: 2vw; }
-    .headerNavbar .socialMediaSmall #instagramSmall {
-      width: 2vw; }
-    .headerNavbar .socialMediaSmall #youtubeSmall {
-      width: 2vw; }
+
+.col2 img {
+  width: 30px;
+  height: auto;
+  display: inline-block; }
+  @media (max-width: 580px) {
+    .col2 img {
+      width: 20px; } }
 
 #aim {
   min-height: 475px;
   color: black;
-  text-align: center;
   background-color: #f6f5f0;
   padding: 0 50px;
   padding-bottom: 70px; }
   #aim h1 {
+    text-align: center;
     margin: 70px 0;
     font-style: bold;
-    font-size: 40px;
-    font-family: "Lato"; }
+    font-size: 40px; }
   #aim p {
-    font-size: 14px; }
+    font-size: 16px;
+    text-align: center; }
 
 #offer {
   min-height: 800px;
-  color: #b3b3b3;
-  text-align: center; }
+  color: #b3b3b3; }
   #offer h1 {
+    text-align: center;
     margin: 50px 0;
     font-style: bold;
-    font-size: 40px;
-    font-family: "Lato"; }
+    font-size: 40px; }
   #offer p {
     margin-bottom: 0px;
-    font-size: 14px; }
+    text-align: center;
+    font-size: 16px;
+    justify-content: center; }
+  @media (max-width: 480px) {
+    #offer .icon p {
+      font-size: 10px;
+      text-align: center; } }
+
+.offerText {
+  text-align: center; }
 
 .iconContainer {
   display: flex;
@@ -205,7 +204,7 @@ header .onerow {
   margin-bottom: 100px; }
 
 #about {
-  min-height: 500px;
+  min-height: 550px;
   color: black;
   background-color: #f6f5f0;
   padding-bottom: 70px; }
@@ -214,27 +213,43 @@ header .onerow {
     font-size: 40px;
     text-align: center; }
   #about ul li {
-    margin: 20px 0 20px 20px; }
+    margin: 20px 0 20px 20px;
+    font-size: 16px; }
+  #about p {
+    text-align: justify;
+    font-size: 16px; }
 
 #career {
   min-height: 700px;
   color: #b3b3b3;
-  padding-bottom: 70px; }
+  padding-bottom: 20px; }
   #career h4 {
     margin: 40px 0; }
+  #career p {
+    font-size: 16px; }
+  #career p .text {
+    text-align: justify; }
   #career ul li {
-    margin: 20px 0 20px 20px; }
+    margin: 20px 0 20px 20px;
+    font-size: 16px; }
+
+.text {
+  text-align: justify; }
 
 #cooperation {
-  height: 300px;
-  margin: 20px 0;
+  min-height: 200px;
+  margin-top: 20px;
   font-size: 40px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 40px; }
 
 .cooperationContainer {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 100px; }
+  justify-content: space-around; }
+  @media (max-width: 480px) {
+    .cooperationContainer .logos {
+      width: 80px;
+      height: 80px; } }
 
 #contact {
   color: white;

@@ -4,7 +4,7 @@
   text-decoration: none;
   padding: 0;
   margin: 0;
-  font-family: "Lato";
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 h1 {
@@ -19,9 +19,9 @@ header .onerow {
 }
 
 .headerNavbar {
-  height: 105px;
+  height: 90px;
   background-color: rgba(35, 35, 37,0.8);
-  margin-top: 40px;
+  margin-top: 35px;
   #logo {
     width: 120px;
     margin-top: 10px;
@@ -37,65 +37,65 @@ header .onerow {
       color: white;
       font-size: 1.2vw;
     }
-    //@media (max-width: 770px) {
+    //@media (max-width: 0px) {
       //display: none;
     //}
   }
-  .socialMediaSmall {
-    width: 100px;
-    display: flex;
-    justify-content: space-around;
-    @media (max-width: 758px) {
-      display: flex;
-      justify-content: space-around;
-      width: 40px;
-      margin-left: 40px;
-    }
-    #fbSmall {
-      width: 2vw;
-      height: 2vw;
-    }
-    #instagramSmall {
-      width: 2vw;
-    }
-    #youtubeSmall {
-      width: 2vw;
-    }
+}
+
+.col2 img {
+  width: 30px;
+  height: auto;
+  display: inline-block;
+  @media (max-width: 580px) {
+    width: 20px;
   }
 }
 
 #aim {
   min-height: 475px;
   color: black;
-  text-align: center;
   background-color: rgb(246, 245, 240);
   padding: 0 50px;
   padding-bottom: 70px;
   h1 {
+    text-align: center;
     margin: 70px 0;
     font-style: bold;
     font-size: 40px;
-    font-family: "Lato";
   }
   p {
-    font-size: 14px;
+    font-size: 16px;
+    text-align: center;
   }
 }
 
 #offer {
   min-height: 800px;
   color: rgb(179,179,179);
-  text-align: center;
   h1 {
+    text-align: center;
     margin: 50px 0;
     font-style: bold;
     font-size: 40px;
-    font-family: "Lato";
   }
   p {
     margin-bottom: 0px;
-    font-size: 14px;
+    text-align: center;
+    font-size: 16px;
+    justify-content: center;
+
   }
+  .icon p {
+    @media (max-width: 480px) {
+      font-size: 10px;
+      text-align: center
+    }
+  }
+}
+
+.offerText {
+  text-align: center;
 }
 
 .iconContainer {
@@ -105,7 +105,7 @@ header .onerow {
 }
 
 #about {
-  min-height: 500px;
+  min-height: 550px;
   color: black;
   background-color: rgb(246, 245, 240);
   padding-bottom: 70px;
@@ -116,33 +116,54 @@ header .onerow {
   }
   ul li {
     margin: 20px 0 20px 20px;
+    font-size: 16px;
+  }
+  p {
+    text-align: justify;
+    font-size: 16px;
   }
 }
-
 
 #career {
   min-height: 700px;
   color: rgb(179, 179, 179);
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   h4 {
     margin: 40px 0;
   }
+  p {
+    font-size: 16px;
+  }
+  p .text {
+    text-align: justify;
+  }
   ul li {
     margin: 20px 0 20px 20px;
+    font-size: 16px;
   }
 }
 
+.text {
+  text-align: justify;
+  }
+
 #cooperation {
-  height: 300px;
-  margin: 20px 0;
+  min-height: 200px;
+  margin-top: 20px;
   font-size: 40px;
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .cooperationContainer {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 100px;
+  .logos {
+  @media (max-width: 480px) {
+    width: 80px;
+    height: 80px;
+  }
+}
 }
 
 
